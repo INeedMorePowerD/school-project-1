@@ -1,0 +1,26 @@
+while True:
+     print("Calculadora")
+     x = int(input("digite o primeiro número"))
+     y = int(input("digite o segundo número"))
+     operacao = input ("digite a operação")
+
+
+     if operacao == "+":
+         print("resposta =", x + y)
+
+     if operacao == "-":
+         print("resposta =", x - y)
+
+     if operacao == "/":
+         print("resposta =", x / y)
+
+     if operacao == "*":
+         print("resposta =", x * y)
+
+     else:
+         print("Operação inválida")
+
+     r = input("deseja calcular novamente? ")
+
+     if r != "sim":
+          break
